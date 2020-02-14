@@ -23,7 +23,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+    --main-color: #17b978;
+    --main-dark: #086972
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1785,7 +1788,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: var(--main-color);
 		font-size: 3.5em;
 	}
 
@@ -2402,7 +2405,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: var(--main-color);
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,7 +2621,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: var(--main-color);
 			color: #ffffff !important;
 		}
 
@@ -2626,7 +2629,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5ed0b1;
+				background-color: var(--main-dark);
 			}
 
 			input[type="submit"].primary:active,
@@ -2700,7 +2703,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: var(--main-color);
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2808,7 +2811,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: var(--main-color) !important;
 						}
 
 					#header > nav ul li:first-child {
